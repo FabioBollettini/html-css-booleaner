@@ -10,6 +10,14 @@
   width: 80%;
   background-color:rgb(0, 191, 255);
   background-image: url("img/pattern.png");
+  background-size: 400px;
+}
+
+.logo img{
+  padding-left: 10%;
+  padding-top: 20px;
+  height: 100px;
+  width: 200px;
 }
 
 .sottotesto{
@@ -23,4 +31,50 @@
 a{
   text-decoration: none;
   color: rgb(0, 191, 255);
+}
+
+/* TABLE */
+
+.table{
+  border-collapse: collapse;
+}
+
+.table-head{
+  background-color: rgb(0, 191, 255);
+  color: white;
+}
+
+.lorem1, .lorem2{
+  width: 25%;
+}
+
+.lorem3{
+  width: 50%;
+}
+
+.blue-row{
+  background-color: lightblue;
+}
+
+/* IMMAGINI ALLA FINE */
+
+#immagine1{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: white;
+  height: 200px;
+  background-image: url("img/graph.jpg");
+  background-repeat: no-repeat;
+}
+
+#immagine2{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+  height: 200px;
+  background-image: url("img/monitor.jpg");
+  background-repeat: no-repeat;
 }
