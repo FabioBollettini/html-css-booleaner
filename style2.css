@@ -1,0 +1,90 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  background-color: lightgrey;
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+  height: 100px;
+  width: 100%;
+  max-width: 100%;
+  background-color:black;
+  background-size: 400px;
+}
+
+.booleaner{
+  margin: auto;
+  width: 1200px;
+  height: 100px;
+}
+
+.booleaner img{
+  width: 400px;
+}
+
+.sottotesto{
+  color: gray;
+}
+
+.evidenziato{
+  background-color: yellow;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 191, 255);
+}
+
+/* TABLE */
+
+.table{
+  border-collapse: collapse;
+}
+
+.table-head{
+  background-color: black;
+  color: white;
+}
+
+.lorem1, .lorem2{
+  width: 25%;
+}
+
+.lorem3{
+  width: 50%;
+}
+
+.blue-row{
+  background-color: gray;
+}
+
+/* IMMAGINI ALLA FINE */
+
+#immagine1{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: white;
+  height: 200px;
+  background-image: url("img/graph.jpg");
+  background-repeat: no-repeat;
+}
+
+#immagine2{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+  height: 200px;
+  background-image: url("img/monitor.jpg");
+  background-repeat: no-repeat;
+}
